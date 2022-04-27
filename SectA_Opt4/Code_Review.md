@@ -4,10 +4,7 @@ Your code is well presented and easy to follow based on the logic that you have 
 also see that you have a good idea of how you would like to achieve your results. There are just a
 few things you should have a look at to make everything run more smoothly.
 
-It is also very good that you commented on most code blocks. It is important to keep in mind that
-the person who will be working with your code next, has no-idea what your implementations are and
-it is therefore very important that your comments are more descriptive in nature and that comment
-on each block of code that you write.
+--Correctness
 
 In line 5 you use a strongly typed function and although it is clear what the outcome should be, it
 does lack the proper syntax to run the code as you desire.
@@ -27,20 +24,27 @@ implementation of the modulo operator also indicates that your function is incom
 not doing what you need it to. The link above will also help but do a bit more research on algorithms
 and the use of the modulo operator.
 
+To debug your code as you go along, use console.log() to check the output of your code. This way you
+will be able to see if you are on the right track.
+
+--Efficiency
+
 When writing code, always keep the time-complexity in mind (your code should run in the shortest
 amount of time possible). This means leaving redundant methods and functions out of t your code.
 Look at line 23 and think if you really need to implement all the functions in your chain.
 
-To debug your code as you go along, use console.log() to check the output of your code. This way you
-will be able to see if you are on the right track.
-
 You might also want to consider casting your string to an array and then manipulating the array. This
 will help you to check for white space between words.
 
+--Style
+
+--Documentation
+
+It is also very good that you commented on most code blocks. It is important to keep in mind that
+the person who will be working with your code next, has no-idea what your implementations are and
+it is therefore very important that your comments are more descriptive in nature and that comment
+on each block of code that you write.
+
+--
 All in all this was a really good attempt and you're definitely thinking along the right lines, it is
 just some technical details that need some work.
-
-Correctness
-Efficiency
-Style
-Documentation
